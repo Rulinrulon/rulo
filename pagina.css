@@ -1,0 +1,129 @@
+#fondo{
+    background: linear-gradient(#222229, #4e4e8a);  
+    font-family: Arial;
+    font-size: 120%;
+  }
+  
+  #div_arriba{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    margin-right: 5em;
+    margin-left: 5em;
+    border-bottom: 0.15em solid #8080e0;
+  }
+  
+  #div_abajo{
+    border-top: 0.15em solid #8080e0;
+    margin-right:5em;
+    margin-left: 5em;
+    padding: 2em;
+    text-align: center;
+    color: white;
+  }
+  
+  #div_buscador{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 1.5em;
+    color: white;
+  }
+  
+  #grilla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 240px);
+    grid-template-rows: repeat(4, auto);
+    gap: 50px;
+    justify-content: center;
+  }
+  
+  #buscador{
+    border-radius: 6px;
+    border: 0.01em solid #3b3939;
+    color: grey;
+    background-color: #161617;
+    height: 2em;
+    margin-top: 2em;
+    padding-top: 0.2em;
+    padding-right: 0.2em;
+    padding-left: 1em;
+    padding-bottom: 0.2em;
+    width: 45%
+  }
+  
+  #search{
+    border-radius: 6px;
+    border: 0.01em solid #3b3939;
+    background-color: #161617;
+    height:2em;
+    width: 6em;
+    margin-top: 2.3em;
+    font-style: bold;
+    color: white;
+  }
+  
+  #signin{
+    border-radius: 4px;
+    border: none;
+    color: grey;
+    background-color: transparent;
+    font-style: bold;
+    height:2em;
+  }
+  
+  .foto{
+    width: 100%; 
+    aspect-ratio: 16 / 9; 
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .contenedor-foto{
+    border-top: 15px solid #161617;
+    border-right: 15px solid #161617;  
+    border-left: 15px solid #161617;
+    border-radius: 4px;
+    background-color: #161617; 
+    color: white; 
+    text-align: center;
+  }
+  
+  .div_carrito{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #carro{
+    margin-top: 1em;
+    width: 3.2em;
+    height: 2.2em;
+    background-color:#161617;
+    border-radius: 4px;
+    border: 0.10em solid #3b3939;
+    cursor: pointer;
+  }
+  
+  .contenedor-foto:hover{
+    outline:0.2em solid #8080e0;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px #fff;
+    transition: 200ms;
+  }
+
+  #carro:hover{
+    border: 0.2em solid #8080e0;
+    transition: 200ms;
+    cursor: pointer;
+  }
+
+  #search:hover{
+    cursor: pointer;
+  }
+  
+  #signin:hover{
+    cursor: pointer;
+  }
